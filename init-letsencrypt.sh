@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(api.runhare.org www.api.runhare.org)
+domains=(api.runhare.org)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="dickenstawanda@gmail.com" # Adding a valid address is strongly recommended
